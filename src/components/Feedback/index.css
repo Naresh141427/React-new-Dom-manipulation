@@ -1,0 +1,52 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.imoji-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px 0px 50px 0px;
+}
+.feedback-title {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 35px;
+  text-align: center;
+}
+.imoji-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imoji-item {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+.imoji {
+  height: 50px;
+  width: 50px;
+}
+.imoji-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
